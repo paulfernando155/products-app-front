@@ -1,0 +1,112 @@
+<div class="container">
+    <div class="my-4">
+        <h2>Carrito de compras</h2>
+        <div class="text-muted">Orden de compra N° 12321312</div>
+        <div class="table-responsive-md my-3">
+            <table class="table text-center">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Acciones</th>
+                        <th scope="col">Imagen</th>
+                        <th scope="col">Producto</th>
+                        <th scope="col">Precio (S/.)</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Subtotal (S/.)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>
+                            <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                        <td class="w-25"><img src="assets/image-1.png" class="img-fluid" alt="Responsive image"></td>
+                        <td>Auriculares DF23-21</td>
+                        <td>32.42</td>
+                        <td>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </td>
+                        <td>123.23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>
+                            <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                        <td class="w-25"><img src="assets/image-1.png" class="img-fluid" alt="Responsive image"></td>
+                        <td>Auriculares DF23-21</td>
+                        <td>32.42</td>
+                        <td>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </td>
+                        <td>123.23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>
+                            <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                        <td class="w-25"><img src="assets/image-1.png" class="img-fluid" alt="Responsive image"></td>
+                        <td>Auriculares DF23-21</td>
+                        <td>32.42</td>
+                        <td>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </td>
+                        <td>123.23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>
+                            <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                        <td class="w-25"><img src="assets/image-1.png" class="img-fluid" alt="Responsive image"></td>
+                        <td>Auriculares DF23-21</td>
+                        <td>32.42</td>
+                        <td>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </td>
+                        <td>123.23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="font-weight-bold">Subtotal</td>
+                        <td class="font-weight-bold">123.23</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="d-flex justify-content-around justify-content-md-end mt-4">
+            <button type="button" class="btn btn-secondary mr-3">Actualizar carrito</button>
+            <button type="button" class="btn btn-primary" (click)="onClickOrder()">Proceder con el pedido</button>
+        </div>
+    </div>
+</div>
